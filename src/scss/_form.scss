@@ -1,0 +1,38 @@
+.search{
+  .search__form{
+    fieldset{
+      margin: 0;
+      padding: 0;
+      border: 0 none;
+    }
+    .search__form--hidden{
+      display: none;
+    }
+    .search__submit{
+      background-color: $turquoise;
+      padding: .5rem .5rem;
+      font-size: 1.8rem;
+      color: $white;
+      width: 100%;
+      margin: .75rem 0;
+    }
+  }
+  .search__input{
+    background-color: $extra-dark-grey;
+    color: $white;
+    width: 50rem;
+    display: flex;
+    padding: 1.5rem 1.5rem;
+    font-size: 2rem;
+    border: 0 none;
+    &::placeholder {
+      color: $light-grey;
+    }
+  }
+  .search__error-msg{
+    margin: 0;
+    background-color: $dark-red;
+    padding: .75rem .75rem;
+    color: $white;
+  }
+}
